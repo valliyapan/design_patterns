@@ -1,0 +1,2 @@
+In order to explain the usecase of the Singleton Pattern, consider a scenario where multiple consumers need to read messages from a shared message queue. To ensure that all consumers access the same instance of the message queue, we can implement the Singleton Pattern. This guarantees that there is only one instance of the message queue throughout the application, preventing issues such as message duplication or loss.
+
