@@ -9,6 +9,7 @@
   "author": "Valliyapan",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "uuid": "^13.0.0"
   },
   "type": "module"

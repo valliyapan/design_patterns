@@ -1,0 +1,11 @@
+- Factory pattern helps to create objects without the use of new keyword and delegates the object creation loogic to the factory method, thus isolating the business logic from object creation
+
+- Usecase for factory pattern:
+
+    1. When object type is decided at runtime and based on type using factory method create the required object
+    2. To ease testing by mocking only the factory method instead of the entire class
+    3. Easy extensibility by means of creating an object from the factory for the new type of class without having to make changes in the consumer code and pass the new type as some config param (or env var)
+
+- When not to use:
+
+    1. Just for the sake of design pattern, do not implement it when there is only 1-2 object types
